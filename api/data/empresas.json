@@ -1,0 +1,27 @@
+{
+    "empresas": {
+        "data": [
+            {
+                "nome": "Empresa 1",
+                "nomeFantasia": "E1",
+                "cnpj": "11111111111",
+                "endereco": "Rua 11, 11",
+                "beneficiosEscolhidos":"VR, VA"
+            },
+            {
+                "nome": "Empresa 2",
+                "nomeFantasia": "E2",
+                "cnpj": "222222222",
+                "endereco": "Rua 22, 22",
+                "beneficiosEscolhidos":"VR, VA, Spotify"
+            },
+            {
+                "nome": "Empresa 3",
+                "nomeFantasia": "E3",
+                "cnpj": "333333333",
+                "endereco": "Rua 33, 33",
+                "beneficiosEscolhidos":"Amazon, VA"
+            }
+        ]
+    }
+}

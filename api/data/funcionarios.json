@@ -1,0 +1,27 @@
+{
+    "funcionarios": {
+        "data": [
+            {
+                "empresa": "Empresa 1",
+                "nome": "Caio",
+                "sobrenome": "Teixeira",
+                "cpf": "12345678910",
+                "email": "caio@email.com"
+            },
+            {
+                "empresa": "Empresa 1",
+                "nome": "Jorge",
+                "sobrenome": "Silva",
+                "cpf": "98765432101",
+                "email": "jorge@email.com"
+            },
+            {
+                "empresa": "Empresa 2",
+                "nome": "Godofredo",
+                "sobrenome": "Silva",
+                "cpf": "11111111",
+                "email": "godofredo@email.com"
+            }
+        ]
+    }
+}

@@ -14,13 +14,6 @@
                 "cnpj": "222222222",
                 "endereco": "Rua 22, 22",
                 "beneficiosEscolhidos":"VR, VA, Spotify"
-            },
-            {
-                "nome": "Empresa 3",
-                "nomeFantasia": "E3",
-                "cnpj": "333333333",
-                "endereco": "Rua 33, 33",
-                "beneficiosEscolhidos":"Amazon, VA"
             }
         ]
     }

@@ -1,6 +1,5 @@
 {
-    "funcionarios": {
-        "data": [
+    "funcionarios": [
             {
                 "empresa": "Empresa1",
                 "nome": "Caio",
@@ -30,40 +29,39 @@
                 "email": "godofredo@email.com"
             },
             {
-                "empresa": "Empresa 1",
+                "empresa": "Empresa1",
                 "nome": "Godofredo",
                 "sobrenome": "Silva",
                 "cpf": "11111111",
                 "email": "godofredo@email.com"
             },
             {
-                "empresa": "Empresa 2",
+                "empresa": "Empresa2",
                 "nome": "Godofredo",
                 "sobrenome": "Silva",
                 "cpf": "11111111",
                 "email": "godofredo@email.com"
             },
             {
-                "empresa": "Empresa 2",
+                "empresa": "Empresa2",
                 "nome": "Godofredo",
                 "sobrenome": "Silva",
                 "cpf": "11111111",
                 "email": "godofredo@email.com"
             },
             {
-                "empresa": "Empresa 2",
+                "empresa": "Empresa2",
                 "nome": "Godofredo",
                 "sobrenome": "Silva",
                 "cpf": "11111111",
                 "email": "godofredo@email.com"
             },
             {
-                "empresa": "Empresa 2",
+                "empresa": "Empresa2",
                 "nome": "Godofredo",
                 "sobrenome": "Silva",
                 "cpf": "11111111",
                 "email": "godofredo@email.com"
             }
         ]
-    }
 }

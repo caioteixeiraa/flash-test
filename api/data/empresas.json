@@ -1,6 +1,5 @@
 {
-    "empresas": {
-        "data": [
+    "empresas": [
             {
                 "nome": "Empresa 1",
                 "nomeFantasia": "E1",
@@ -15,6 +14,5 @@
                 "endereco": "Rua 22, 22",
                 "beneficiosEscolhidos":"VR, VA, Spotify"
             }
-        ]
-    }
+    ]
 }

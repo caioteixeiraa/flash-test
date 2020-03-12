@@ -12,7 +12,6 @@ module.exports = () => {
 
     controller.saveEmpresas = (req, res) => {
         empresasMock.data.push({
-            id: uuidv4(),
             nome: req.nome,
             nomeFantasia: req.nomeFantasia,
             cnpj: req.cnpj,

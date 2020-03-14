@@ -1,7 +1,7 @@
-var mongoose = require('mongoose');
+let mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/flash-test');
  
-var empresasSchema = new mongoose.Schema({
+let empresasSchema = new mongoose.Schema({
     nome: String,
     nomeFantasia: String,
     cnpj: String,
@@ -11,7 +11,7 @@ var empresasSchema = new mongoose.Schema({
 );
  
 
-var funcionariosSchema = new mongoose.Schema({
+let funcionariosSchema = new mongoose.Schema({
     empresa: String,
     nome: String,
     sobrenome: String,

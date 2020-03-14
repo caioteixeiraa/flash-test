@@ -1,11 +1,10 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const config = require('config');
 
 module.exports = () => {
   const app = express();
 
-  app.set('port', process.env.PORT || config.get('server.port'));
+  app.set('port', process.env.PORT || 8080);
 
   app.use(bodyParser.json());
 

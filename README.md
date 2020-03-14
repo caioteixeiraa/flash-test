@@ -29,8 +29,8 @@ use flash-test
 
 4. Abrir o localhost:8080/ . Para fazer as requisições, recomenda-se utilizar o **Postman** As rotas são as seguintes:
 
-I) Criação de funcionarios: http://localhost:8080/api/v1/funcionarios
-II) Criação de empresas: http://localhost:8080/api/v1/empresas
-III) Pegar funcionários de certa empresa: http://localhost:8080/api/v1/funcionarios?empresa=(nome da empresa*)  (sem os parênteses)
+1. Criação de funcionarios: http://localhost:8080/api/v1/funcionarios
+2. Criação de empresas: http://localhost:8080/api/v1/empresas
+3. Pegar funcionários de certa empresa: http://localhost:8080/api/v1/funcionarios?empresa=(nome da empresa*)  (sem os parênteses)
 
 5. **Have Fun!**

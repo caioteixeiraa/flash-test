@@ -1,25 +1,37 @@
 const uuidv4 = require('uuid/v4');
 
 module.exports = () => {
-    const empresasDB = require('../data/empresas.json');
     const controller = {};
 
-    const {
-        empresas: empresasMock,
-    } = empresasDB;
-
-    controller.listEmpresas = (req, res) => res.status(200).json(empresasDB);
+    controller.listEmpresas = (req, res) => {
+        let db = require('../../db');
+        let Empresas = db.Mongoose.model('empresas', db.EmpresasSchema, 'empresas');
+        Empresas.find({}).lean().exec( (e, docs) => {
+            res.json(docs);
+            res.end();
+        })
+    }
 
     controller.saveEmpresas = (req, res) => {
-        empresasMock.data.push({
-            nome: req.nome,
-            nomeFantasia: req.nomeFantasia,
-            cnpj: req.cnpj,
-            endereco: req.endereco,
-            beneficiosEscolhidos: req.beneficiosEscolhidos,
-        });
 
-        res.status(201).json(empresasMock);
+        let db = require('../../db');
+        let Empresa = db.Mongoose.model('empresas', db.EmpresasSchema, 'empresas');
+        let newEmpresa = new Empresa({
+            nome: req.body.nome,
+            nomeFantasia: req.body.nomeFantasia,
+            cnpj: req.body.cnpj,
+            endereco: req.body.endereco,
+            beneficiosEscolhidos: req.body.beneficiosEscolhidos
+        })
+        newEmpresa.save((err) => {
+            if (err) {
+                res.status(500).json({ error: err.message });
+                res.end();
+                return;
+            }
+            res.json(newEmpresa);
+            res.end();
+        })
     }
 
     return controller;

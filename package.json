@@ -16,6 +16,8 @@
     "config": "^3.2.3",
     "consign": "^0.1.6",
     "express": "^4.17.1",
+    "mongoose": "^5.9.4",
+    "node-restful": "^0.2.6",
     "uuid": "^3.3.3"
   }
 }
